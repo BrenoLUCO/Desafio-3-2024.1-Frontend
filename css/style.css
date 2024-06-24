@@ -1,0 +1,55 @@
+/* Estilização da página */
+body {
+    font-family: Arial, sans-serif; 
+    text-align: center; 
+    background-color: #f9f9f9; 
+}
+.container {
+    margin: 50px auto; 
+    width: 80%; 
+    max-width: 800px; 
+    border: 1px solid #f48024; 
+    border-radius: 8px; 
+    background-color: #ffff
+    padding: 20px; 
+}
+.header {
+    font-size: 24px; 
+    font-weight: bold; 
+    color: #f48024;
+}
+.sub-header {
+    margin-top: 20px; 
+    font-size: 18px; 
+    color: #555; 
+}
+.uf-input {
+    margin-top: 10px; 
+    padding: 10px; 
+    font-size: 16px; 
+    border: 1px solid #ddd; 
+    border-radius: 4px; 
+    width: 50%; 
+}
+.municipios {
+    display: flex; 
+    justify-content: center; 
+    margin-top: 20px; 
+    flex-wrap: wrap; 
+    max-height: 300px; 
+    overflow-y: scroll; 
+    border: 1px solid #ddd; 
+    padding: 10px; 
+}
+.column {
+    margin: 0 10px; 
+}
+.municipio {
+    margin: 5px 0; 
+    padding: 10px; 
+    border: 1px solid #f48024; 
+    border-radius: 4px; 
+    background-color: #fff; 
+    color: #333; 
+    cursor: pointer; 
+}

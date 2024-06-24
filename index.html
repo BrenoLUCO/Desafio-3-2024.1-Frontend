@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Plataforma de Localidades da EngNet</title>
+    <link rel="stylesheet" href="css\style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="header">Plataforma de localidades da EngNet</div>
+        <div class="sub-header">Selecione uma UF</div>
+        <input type="text" id="ufInput" class="uf-input" placeholder="Digite a UF (ex: ES)" oninput="fetchMunicipios()">
+        <!-- Campo de entrada para o usuário digitar a UF -->
+        <div class="municipios" id="municipiosContainer"></div>
+        <!-- Contêiner para exibir os municípios -->
+    </div>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
+
